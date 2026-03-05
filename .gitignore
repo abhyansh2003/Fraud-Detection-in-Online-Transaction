@@ -1,0 +1,18 @@
+# Virtual environment
+env/
+
+# Artifacts
+artifacts/
+
+# Dataset
+data/
+
+# Notebook checkpoints
+logs/
+
+run.py
+setup.py
+environment.yaml
+environment.yml
+retraining.py
+tempCodeRunnerFile.py

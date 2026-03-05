@@ -1,0 +1,39 @@
+# Core
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization & EDA
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.4.2
+xgboost==2.0.3
+imbalanced-learn==0.12.2
+
+# Model Saving
+joblib==1.4.2
+pickle-mixin==1.0.2
+
+# Feature Engineering & Utilities
+scipy==1.13.1
+
+# Data Validation
+pydantic==2.7.1
+pyyaml==6.0.1
+
+# Streamlit Deployment
+streamlit==1.35.0
+
+# Logging & Utilities
+tqdm==4.66.4
+
+# Model Explainability (Optional but Recommended)
+shap==0.45.1
+
+# Testing
+pytest==8.2.1
+
+# Jupyter (for notebook folder)
+notebook==7.2.0
+ipykernel==6.29.4
