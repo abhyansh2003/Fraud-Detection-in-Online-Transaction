@@ -1,11 +1,17 @@
+import os
 import streamlit as st
 import pandas as pd
+import subprocess
 from src.pipeline.prediction_pipeline import PredictionPipeline
 
 st.set_page_config(page_title="Fraud Detection System", layout="wide")
 
 st.title("💳 AI-Powered Fraud Detection System")
 st.markdown("---")
+
+if not os.path.exists("artifacts/model_trainer/model.pkl"):
+    import subprocess
+    subprocess.run(["python", "main.py"])
 
 pipeline = PredictionPipeline()
 
