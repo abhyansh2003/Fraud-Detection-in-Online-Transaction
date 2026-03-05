@@ -12,7 +12,7 @@ logs/
 
 run.py
 setup.py
-environment.yaml
+enviroment.yaml
 environment.yml
 retraining.py
 tempCodeRunnerFile.py
